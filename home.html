@@ -3,309 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="https://file.garden/aA2l8ug81GreC0q0/miku/pixel/63011f1d.gif" />
+    <link rel="shortcut icon" href="https://file.garden/aA2l8ug81GreC0q0/miku/pixel/x0i1li" />
+
+    <!-- Link to external style -->
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>k e y z °˖➴</title>
-    <style>
-      @font-face {
-        font-family: "roman"; /* Give it a unique name */
-        src:
-          url("path/to/times-new-roman.woff2") format("woff2"),
-          url("path/to/times-new-roman.woff") format("woff");
-        font-weight: normal;
-        font-style: normal;
-      }
-
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-      }
-
-      /* body {
-        font-family: tahoma, calibri, georgia, arial, sans-serif;
-        font-size: 11px;
-        color: #dc94a1;
-        letter-spacing: 1px;
-        line-height: 13px;
-        background: #fff7f9
-          url(https://64.media.tumblr.com/effebb0ce0a222afb14b9b133deb4f83/14fadfff40e7cda3-7b/s500x750/62c66254c66af1722057f3161fc6629f4388e6de.gifv)
-          fixed;
-        padding: 20px;
-      } */
-
-      body {
-        cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/BlinkingCursor.gif"), auto;
-        margin: 0;
-        font-family: "Times New Roman", Times, serif;
-        background: #f2f8f9 url(https://file.garden/aA2l8ug81GreC0q0/assets/08700d6c.png) fixed;
-        color: #918d84;
-        padding: 20px;
-        font-size: 11px;
-        letter-spacing: 1px;
-        text-align: left;
-        line-height: 13px;
-        display: flex;
-        justify-content: center;
-      }
-
-      i {
-        color: #87bffb;
-        font-weight: normal;
-        font-style: italic;
-        letter-spacing: 1px;
-      }
-
-      /* Links */
-      a {
-        color: #94afff;
-        text-decoration: none;
-        font-weight: bold;
-        cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
-      }
-      a:hover {
-        color: #a2cfff;
-        text-decoration: none;
-        cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
-      }
-      .extra {
-        display: block;
-        font-size: 12px;
-        padding-left: 10px;
-        margin-bottom: 4px;
-        color: #94afff;
-      }
-
-      /* Scrollbar */
-      ::-webkit-scrollbar-thumb {
-        background-color: #2b91ac;
-        border: 1px solid #fff;
-        border-radius: 6px;
-      }
-      ::-webkit-scrollbar {
-        width: 6px;
-        height: 0px;
-        background: transparent;
-      }
-
-      /* Boxes and Titles */
-      .box {
-        background: #f0f5fd;
-        padding: 5px;
-        border: 1px dashed #c3c6e5;
-        border-radius: 10px;
-      }
-      .title {
-        font:
-          italic 15px "georgia",
-          arial;
-        font-weight: bold;
-        color: #94afff;
-        text-transform: lowercase;
-        letter-spacing: 3px;
-        margin-bottom: 5px;
-        border-bottom: 2px solid #2b91ac;
-      }
-      .title-filled {
-        background: #94afff;
-        text-align: center;
-        font:
-          italic 13px "georgia",
-          arial;
-        font-weight: bold;
-        color: #fff;
-        text-transform: lowercase;
-        letter-spacing: 3px;
-        margin-bottom: 4px;
-        padding: 1px;
-        border-radius: 10px;
-      }
-
-      /* Layout */
-      .container {
-        width: 100%;
-        max-width: 800px;
-        margin: 20px auto;
-        background: #f0f5fd;
-        padding: 10px;
-        border-radius: 20px;
-        border-width: 8px;
-        border-style: solid;
-        border-image: url("https://file.garden/aA2l8ug81GreC0q0/border/frill-2.png") 8 fill round;
-      }
-
-      /* Header / Site name */
-      .sitename {
-        color: #94afff;
-        padding: 10px;
-        margin-bottom: 10px;
-        text-align: center;
-        font:
-          italic 26px "roman",
-          georgia,
-          arial;
-      }
-
-      /* Navigation */
-      .nav-bar {
-        margin-top: 0px;
-        background: transparent;
-        display: flex;
-        justify-content: center;
-        padding: 0px;
-      }
-
-      .nav-bar a {
-        color: #94afff;
-        text-decoration: none;
-        cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
-        font-weight: bold;
-        text-decoration: none;
-        text-transform: lowercase;
-        font-family: georgia, arial;
-        padding-bottom: 0px;
-        font-size: 11px;
-        line-height: 15px;
-        background: #fff;
-        padding: 2px 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-        border: 1px dashed #c3c6e5;
-        border-radius: 10px;
-      }
-
-      .nav-bar a:hover {
-        color: #a2cfff;
-        text-decoration: none;
-        cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
-      }
-
-      /* Main / Content area */
-      .content {
-        display: flex;
-        gap: 10px;
-        margin-top: 10px;
-      }
-
-      .column {
-        flex: 1;
-        border-radius: 10px;
-        padding: 3px;
-        text-align: justify;
-      }
-
-      .largecolumn {
-        flex: 2;
-        border-radius: 10px;
-        padding: 3px;
-        text-align: justify;
-      }
-
-      /* Footer */
-      .footer {
-        background: #fff;
-        text-align: center;
-        padding: 10px;
-        margin-top: 10px;
-        border: 1px dashed #c3c6e5;
-        border-radius: 20px;
-      }
-
-      /* Responsiveness */
-      @media (max-width: 600px) {
-        .content {
-          flex-direction: column;
-        }
-
-        .nav-bar {
-          flex-direction: column;
-          gap: 8px;
-          align-items: center;
-        }
-        .nav-bar a {
-          display: block;
-          width: 60%;
-          text-align: center;
-        }
-      }
-      /* credit to atinytrashbag.neocities.org!! */
-      .logbox-container {
-        display: flex;
-        justify-content: center; /* centers horizontally */
-        /* margin-top: 20px; /* optional: space from top */
-      }
-
-      .logbox {
-        width: 169px;
-        height: 150px;
-        overflow: auto;
-        border: 1px;
-        padding: 3px;
-
-        /* hide scrollbar (Firefox) */
-        scrollbar-width: none;
-
-        /* hide scrollbar (IE/Edge old) */
-        -ms-overflow-style: none;
-      }
-
-      /* hide scrollbar (Chrome, Safari) */
-      .logbox::-webkit-scrollbar {
-        display: none;
-      }
-
-      /* silly scrollbar */
-      .scroll-container {
-        display: flex;
-        justify-content: center; /* centers horizontally */
-        /* margin-top: 20px; /* optional: space from top */
-      }
-
-      .scroll {
-        width: 170px;
-        height: 200px;
-        overflow: auto;
-        border: 1px;
-        padding: 3px;
-
-        /* hide scrollbar (Firefox) */
-        scrollbar-width: none;
-
-        /* hide scrollbar (IE/Edge old) */
-        -ms-overflow-style: none;
-      }
-
-      /* hide scrollbar (Chrome, Safari) */
-      .logbox::-webkit-scrollbar {
-        display: none;
-      }
-      /* STATUS CAFE */
-      #statuscafe {
-        padding: 0.5em;
-        background-color: azure;
-        border: 1px solid midnightblue;
-      }
-      #statuscafe-username {
-        margin-bottom: 0.5em;
-      }
-      #statuscafe-content {
-        margin: 0 1em 0.5em 1em;
-      }
-      /* MY CODE */
-      .center {
-        text-align: center;
-      }
-      .img {
-        border-radius: 10px;
-      }
-      hr {
-        border: none;
-        height: 1px; /* Sets the thickness of the line */
-        background-color: #2b91ac; /* Sets the color */
-      }
-    </style>
   </head>
 
+  <!---------- Header: Site Title ---------->
   <body>
     <div class="container">
       <header class="sitename">
@@ -314,26 +20,99 @@
           alt="x" /><br />
         Keychainz Things
       </header>
-
+      <!---------- Links: Navigations ---------->
       <nav class="nav-bar">
-        <a href="#"
+        <a href="home.html"
           ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/e5d223e.gif" height="10" alt="x" /> <u
             >home</u
           ></a
         >
-        <a href="#">wip</a>
-        <a href="contact.html">contacts</a>
-        <a href="#">wip</a>
-        <a href="#">wip</a>
-        <a href="#">wip</a>
+        <a href="#">♡</a>
+        <a href="#">♡</a>
+        <a href="#">♡</a>
+        <a href="#">♡</a>
+        <a href="contact.html">♡</a>
       </nav>
-
+      <!---------- Section 1: Left ---------->
       <main class="content">
         <section class="column">
           <div class="title">
             <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
+            webmaster!
+          </div>
+          <!---------- Side Image ---------->
+          <div class="center">
+            <img
+              src="https://file.garden/aA2l8ug81GreC0q0/miku/tumblr@mochilly_88ab16b.png"
+              width="179"
+              class="img" /><br />
+          </div>
+          <!---------- Usage ---------->
+          <div class="box">
+            <div class="title-filled">.co/keychainz</div>
+            <div class="center">
+              (//✚ . ^) ໒꒱⠀<u>keyz</u>⠀꒱ྀིა chain⠀ ྐ he/its<a href="https://pronouns.cc/@keychainz">✚</a> ⟡ 18yrs
+              <br /><br />
+              <img src="https://file.garden/aA2l8ug81GreC0q0/flags/unlabeled" alt="unlabeled" />
+              <img src="https://file.garden/aA2l8ug81GreC0q0/flags/girlboything.png" alt="girlboything" />
+              <img src="https://file.garden/aA2l8ug81GreC0q0/flags/queer" alt="queer" />
+              <img src="https://file.garden/aA2l8ug81GreC0q0/flags/androsexual.png" alt="androsexual" />
+              <img src="https://file.garden/aA2l8ug81GreC0q0/flags/aspec" alt="aspec" />
+              <br />
+            </div>
+          </div>
+          <br />
+          <!---------- Statuses ---------->
+          <div class="extra">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
+            feeling:
+            <a href="https://www.imood.com/users/keychainz"
+              ><img
+                src="https://moods.imood.com/display/uname-keychainz/fg-#94aff/trans-1/imood.gif"
+                alt="The current mood of keychainz at www.imood.com"
+                border="0"
+            /></a>
+          </div>
+          <div class="extra">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
+            playing: <a href="https://www.roblox.com/games/127794225497302/Abyss"><u>roblox - abyss</u></a>
+          </div>
+          <div class="extra">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
+            watching:
+            <a
+              href="https://www.youtube.com/watch?v=__MjyP9HSY8&list=PL31rD-qzrQV3HSCGYGVea_9lAFZxuELqS&pp=0gcJCboEOCosWNin"
+              ><u>Gameplays</u></a
+            >
+          </div>
+          <div class="extra">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
+            listening to: <a href="https://youtu.be/XQ4kEsjtkMA?si=DgTKY2T13Hee59r3"><u>Slipknot</u></a>
+          </div>
+          <!---------- Status Cafe ---------->
+          <div id="statuscafe">
+            <div id="statuscafe-username"></div>
+            <div id="statuscafe-content"></div>
+          </div>
+          <script src="https://status.cafe/current-status.js?name=keychainz" defer></script>
+          <br />
+          <!---------- Funsies: Pokemon & Scrollable Stamps and Blinkies ---------->
+          <br />
+          <div class="title">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
             Sillies!
           </div>
+          <div class="center">
+            <a href="https://www.ginomegelati.de">
+              <img
+                src="https://www.yatta-tempel.de/animierte/607gino.gif"
+                style="width: 33px; height: 44px"
+                alt="Bloom" /></a
+            ><br />
+            <b>Name:</b> Bloom<br />
+            Adopt one yourself! <br />@<a href="https://www.ginomegelati.de/">Pok&eacute;mon Orphanage</a>
+          </div>
+          <br />
           <div class="scroll-container">
             <div class="scroll">
               <div class="center">
@@ -389,71 +168,9 @@
               </div>
             </div>
           </div>
-
-          <div class="box">
-            <div class="title-filled">Hobbies</div>
-            i like drawing, designing and oc creations! just anything that lets me express myself. This site is the
-            catalyst!
-          </div>
-          <br />
-
-          <a class="extra" href="https://toyhou.se/keyzforthings"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-            toyhouse</a
-          >
-          <a class="extra" href="https://pinterest.com/keyzforthings/"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-            pinterest</a
-          >
-          <a class="extra" href="https://open.spotify.com/user/31qur5zbm5u2xivabhqherd4gyga"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-            spotify</a
-          >
-          <a class="extra" href="https://www.roblox.com/users/1574851657/profile"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" /> roblox</a
-          >
-          <br />
-          <div class="title">
-            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
-            bloomie!
-          </div>
-          <div class="center">
-            <a href="https://www.ginomegelati.de">
-              <img
-                src="https://www.yatta-tempel.de/animierte/607gino.gif"
-                style="width: 33px; height: 44px"
-                alt="Bloom" /></a
-            ><br />
-            <b>Name:</b> Bloom<br />
-            Adopt one yourself! <br />@<a href="https://www.ginomegelati.de/">Pok&eacute;mon Orphanage</a>
-          </div>
-          <br />
-
-          <div class="box">
-            <div class="title-filled">find me here</div>
-            <a class="extra" href="https://spacehey.com/keyzforthings"
-              ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-              spacehey</a
-            >
-            <a class="extra" href="https://artfight.net/~keyzforthings"
-              ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-              artfight</a
-            >
-            <a class="extra" href="https://bsky.app/profile/keyzforthings.bsky.social"
-              ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-              bluesky</a
-            >
-            <a class="extra" href="https://x.com/keyzforthings"
-              ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-              twitter</a
-            >
-            <a class="extra" href="https://www.tumblr.com/keyzforthings"
-              ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-              tumblr</a
-            >
-          </div>
         </section>
         <section class="largecolumn">
+          <!---------- MAIN STUFF ---------->
           <div class="title">
             <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
             Introduction
@@ -464,315 +181,250 @@
           <br /><br />
           I've been motivated to attempt making a site of my own when I finished doing
           <a href="https://rentry.co/keychainz">.co/keychainz</a>! I'm only really experienced with basic HTML due to
-          toyhouse. Meanwhile with CSS...I uh, copy stuff from different sources then hope for the best. <br /><br />
-          I love the whole idea of graphic collecting and exploring the indieweb. I love it the more I discover!, it's
-          all so inspirational! <br /><br />
-          
+          toyhouse. Meanwhile with CSS...I uh, copy stuff from different sources then hope for the best.<br /><br />
+
           <i>Do enjoy your stay here, And don't forget to sign my guestbook before you leave!</i>
           <br /><br />
-
-          <div class="title">
-            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" width="15" />
-            cool sites
-          </div>
-          <div class="center">
-            <a href="https://atinytrashbag.neocities.org/" target="_blank"
-              ><img src="https://atinytrashbag.neocities.org/assets/att%20button.gif" alt="atinytrashbag" width="70"
-            /></a>
-            <a href="https://petrapixel.neocities.org/" target="_blank"
-              ><img
-                src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif"
-                alt="petrapixel"
-                width="93"
-            /></a>
-            <a href="https://e0nbreak.neocities.org/" target="_blank"
-              ><img src="https://cdn.imgchest.com/files/f2a92d489850.jpg" alt="e0nbreak" width="90"
-            /></a>
-          </div>
-          <br /><br />
-
           <!-- GIFYPET -->
           <div class="box">
             <div class="title-filled">look after her while you're here!</div>
             <div class="center">
-              <iframe width="314" height="321" scrolling="no" 
+              <iframe
+                width="314"
+                height="321"
+                scrolling="no"
                 src="https://gifypet.neocities.org/pet/pet.html?name=Miku&dob=1774447211&gender=f&element=Water&pet=https%3A%2F%2Ffile.garden%2FaA2l8ug81GreC0q0%2Fmiku%2Fpng%2Fcarouselofcurses%2520on%2520tumblr_triple%2520baka%2520(3).gif&map=https%3A%2F%2Ffile.garden%2FaA2l8ug81GreC0q0%2Fmiku%2F8056a2.png&background=https%3A%2F%2Ffile.garden%2FaA2l8ug81GreC0q0%2Fassets%2F08700d6c.png&tablecolor=%2394afff&textcolor=%234d79ff"
-                title="miku"  frameborder="0"></iframe>
+                title="miku"
+                frameborder="0"></iframe>
             </div>
           </div>
+          <br />
+          <div class="title">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
+            Shenanigans
+          </div>
+          my side collumns are scrollable! <br />I highly recommend viewing my site on your pc, plus there's like, cool
+          curser things and stuff. <br /><br />yeah it's generally really COOL to be on pc when you're on here...also
+          know that my identity is quite unpredictable. as i may have a completely big overhauls done on this site out
+          of the blue!<br />
+          <br />
+          <div class="center">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/miku/27xw62" width="359" class="img" /><br />
+          </div>
+          <!-------------------->
         </section>
 
         <section class="column">
           <div class="title">
             <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
-            webmaster!
+            offsite!
           </div>
-          <div class="center">
-            <img
-              src="https://file.garden/aA2l8ug81GreC0q0/miku/tumblr@mochilly_88ab16b.png"
-              width="179"
-              class="img" /><br />
-          </div>
-          <div id="statuscafe">
-            <div id="statuscafe-username"></div>
-            <div id="statuscafe-content"></div>
-          </div>
-          <script src="https://status.cafe/current-status.js?name=keychainz" defer></script>
-          <br />
-          <a class="extra" href="https://rentry.co/keychainz"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-            .co/keychainz</a
-          >
-          <a class="extra" href="https://neocities.org/site/keyzforthings"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-            neocities profile</a
+          <br /><a class="extra" href="https://neocities.org/site/keyzforthings"
+            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" /> neocities
+            profile</a
           >
           <a class="extra" href="https://keychainz.atabook.org/"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-            sign my guestbook</a
+            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" /> sign my
+            guestbook</a
           >
-          <a class="extra" href="https://alterspring.org/@keychainz"
-            ><img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/f1abba1d.gif" alt="x" width="9" />
-            ask me questions here</a
-          >
-          <br />
 
+          <br />
           <div class="title">
             <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
-            website!
+            2026/03/26
           </div>
-          <br />
-
           <div class="center">
-            I haven't made my button yet, but it'll be added here
+            <br />
+            <a href="https://keyzforthings.neocities.org/" target="_blank"
+              ><img src="assets/keyzforthings.png" alt="keyzforthings"
+            /></a>
             <br /><br />
-            <textarea> nothing to copy here! </textarea>
+            <label for="button">I DARE you to be Neighbors with me ♡ /silly </label>
+            <textarea id="button" name="button">
+<a href="https://keyzforthings.neocities.org/" target="_blank"><img src="assets/keyzforthings.png" alt="keyzforthings"/></a>
+</textarea
+            >
           </div>
           <br />
-
           <div class="box">
-            <div class="title-filled">site updates</div>
+            <div class="title-filled">changelogs</div>
             <div class="logbox-container">
               <div class="logbox">
+                <b>march 27, 2026</b><br /><br />
+                just added some small edits and changes, moved some stuff around.<br /><br />
+                new: <br /><u>fanlistings</u> <br /><br />
+                <hr />
+                <br />
+                <b>march 26, 2026</b><br /><br />
+                just added some small edits and changes, moved some stuff around.<br /><br />
+                new: <br /><u>my button</u>, <u>neighbors</u><br />
+                <u>cliques</u>, <u>fanlistings</u> <br /><br />
+                moved: <br />
+                <u>links</u>, <u>stuff</u><br /><br />
+                <hr />
+                <br />
                 <b>march 25, 2026</b><br /><br />
-                new page: <u>homepage</u><br />
-                adopted: <u>bloom</u>, <u>miku</u> <br /><br />
+                new: <br /><u>homepage</u><br />
+                <br />
+                adopted: <br /><u>bloom</u>, <u>miku</u> <br /><br />
                 <hr />
                 <br />
                 <b>march 22, 2026</b><br /><br />
-                new page: <u>index</u>
+                new: <br /><u>index</u>
+              </div>
+            </div>
+          </div>
+
+          <br />
+          <div class="title">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
+            neighbors
+          </div>
+          <div class="sites-container">
+            <div class="sites">
+              <div class="center">
+                <!-- atinytrashbag -->
+                <a href="https://atinytrashbag.neocities.org/" target="_blank"
+                  ><img src="https://atinytrashbag.neocities.org/assets/att%20button.gif" width="60"
+                /></a>
+                <!-------------->
+
+                <!-- e0nbreak -->
+                <a href="https://e0nbreak.neocities.org/" target="_blank"
+                  ><img src="https://cdn.imgchest.com/files/f2a92d489850.jpg" width="76"
+                /></a>
+                <!-------------->
+
+                <!-- mikumiku -->
+                <a href="https://mikumiku.neocities.org/" target="_blank"
+                  ><img src="https://mikumiku.neocities.org/88x31.png" width="76"
+                /></a>
+                <!-------------->
+
+                <!-- miku4miku -->
+                <a href="https://miku2miku.neocities.org/" target="_blank"
+                  ><img src="https://miku2miku.neocities.org/images/miku2miku-button.gif" width="76"
+                /></a>
+                <!-------------->
+
+                <!-- petrapixel -->
+                <a href="https://petrapixel.neocities.org/" target="_blank"
+                  ><img
+                    src="https://cdn.jsdelivr.net/gh/petracoding/petrapixel.neocities.org@latest/public/assets/img/linkback.gif"
+                    width="76"
+                /></a>
+                <!-------------->
+
+                <!-- artwork -->
+                <a href="https://artwork.neocities.org/" target="_blank"
+                  ><img src="https://artwork.neocities.org/000/00buttonartwork.gif" width="76"
+                /></a>
+                <!-------------->
+
+                <!-- confetticann0n -->
+                <a href="https://confetticann0n.neocities.org/" target="_blank"
+                  ><img src="https://confetticann0n.neocities.org/assets/buttons/confetticannon.png" width="76"
+                /></a>
+                <!-------------->
+
+                <!-- rice.place -->
+                <a href="https://rice.place/" target="_blank">
+                  <img src="https://rice.nekoweb.org/button/riceus.gif" width="76"
+                /></a>
+                <!-------------->
+
+                <a href="https://meyyebs.neocities.org/"
+                  ><img src="https://meyyebs.neocities.org/img/STICKYHANDS-88x31-1.gif" alt="STICKYHANDS" width="76"
+                /></a>
+                <a href="https://ribo.zone/"
+                  ><img src="https://ribo.zone/88x31/site/ribozone.gif" alt="ribo.zone" width="76"
+                /></a>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="title">
+            <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
+            web inventory
+          </div>
+          <div class="web-container">
+            <div class="web">
+              <br />
+              <!----- Cliques ----->
+              <div class="center">
+                <a href="https://sanguineroyal.com/com/rabbithearted">Rabbit Hearted</a> // Brown Holland Lop <br />
+                <a href="https://sanguineroyal.com/com/rabbithearted">
+                  <img src="assets/web-assets/rabbithearted.png" alt="Rabbit Hearted"
+                /></a>
+                <br /><br />
+                <a href="https://lockheart.love/collections/cliques">Cringe is Dead</a> // Multipairings, Headcanons
+                <br />
+                <a href="http://lockheart.love/collections/cliques">
+                  <img src="https://file.garden/ZrZSgsrYfQXsO7QH/buttons/lockheartlinksbtn.png" alt="Cringe is Dead"
+                /></a>
+                <br /><br />
+                <a href="https://rice.place/colorclique.html">Colorclique</a> // #9753C9
+                <a href="https://rice.place/colorclique.html">
+                  <img src="assets/web-assets/colorclique-BABYBLUE.png" alt="Baby Blue"
+                /></a>
+                <br /><br />
+              </div>
+              <!----- Fanlistings ----->
+              <div class="title">
+                <img src="https://file.garden/aA2l8ug81GreC0q0/pixels/blue/new/3b52e8c.gif" alt="x" width="15" />
+                Fanlistings
+              </div>
+              <br /><br />
+              <div class="center">
+                <!----- Characters ----->
+                <a href="https://fanlistings.melankorin.net/vocaloid/">
+                  <img src="assets/fanlistings/Hatsune-Miku.png" alt="Hatsune Miku" width="60"
+                /></a>
+                <a href="https://fan.wings.nu/cinnamoroll/">
+                  <img src="assets/fanlistings/Cinnamoroll.png" alt="Cinnamoroll" width="60"
+                /></a>
+                <!----- Animals ----->
+                <br /><br />
+                <a href="https://thirteenthfloor.altervista.org/bunnies/">
+                  <img src="assets/fanlistings/Bunnies-&-Rabbits.png" alt="Bunnies & Rabbits" width="60"
+                /></a>
+                <a href="https://fan.wings.nu/hares/">
+                  <img src="assets/fanlistings/Hares-&-Jackrabbits.png" alt="Hares & Jackrabbits" width="60"
+                /></a>
+                <br />
+                <a href="https://edgeofseventeen.altervista.org/rabbits/">
+                  <img src="assets/fanlistings/White-Rabbits.png" alt="White Rabbits" width="60"
+                /></a>
+                <a href="https://decembergirl.net/bunnies/">
+                  <img src="assets/fanlistings/Black-Rabbits.png" alt="Black Rabbits" width="60"
+                /></a>
+                <!----- Hobbies ----->
+                <br /><br />
+                <a href="https://gryffindors.com/sarina/web/">
+                  <img src="assets/fanlistings/Websurfing.png" alt="Web surfing" width="60"
+                /></a>
+                <a href="https://roadtonowhere.altervista.org/music/">
+                  <img src="assets/fanlistings/Music.png" alt="Music" width="60"
+                /></a>
+                <a href="https://silent.am/drawing/">
+                  <img src="assets/fanlistings/Drawing-&-Painting.png" alt="Drawing" width="60"
+                /></a>
+                <a href="https://sarennia.net/art/"> <img src="assets/fanlistings/Art.png" alt="Art" width="60" /></a>
+                <!-------------------->
               </div>
             </div>
           </div>
         </section>
       </main>
 
-      <!--Do not remove the credits if you use this layout, thank u !-->
+      <!--this layout was made by itnerae and i only fiddled with it to match my preference :D !-->
 
       <footer class="footer">
         <a href="https://rentry.co/keychainz" target="_blank">.co/keychainz</a> © 2026 Layout made by
         <a href="http://itinerae.neocities.org" target="_blank">Itinerae.</a>
       </footer>
     </div>
-    <script type="text/javascript">
-      // <![CDATA[
-      var colour = "lightblue"; // in addition to "random" can be set to any valid colour eg "#f0f" or "red"
-      var sparkles = 50;
-
-      /****************************
-       *  Tinkerbell Magic Sparkle *
-       *(c)2005-13 mf2fm web-design*
-       *  http://www.mf2fm.com/rv  *
-       * DON'T EDIT BELOW THIS BOX *
-       ****************************/
-      var x = (ox = 400);
-      var y = (oy = 300);
-      var swide = 800;
-      var shigh = 600;
-      var sleft = (sdown = 0);
-      var tiny = new Array();
-      var star = new Array();
-      var starv = new Array();
-      var starx = new Array();
-      var stary = new Array();
-      var tinyx = new Array();
-      var tinyy = new Array();
-      var tinyv = new Array();
-
-      window.onload = function () {
-        if (document.getElementById) {
-          var i, rats, rlef, rdow;
-          for (var i = 0; i < sparkles; i++) {
-            var rats = createDiv(3, 3);
-            rats.style.visibility = "hidden";
-            rats.style.zIndex = "999";
-            document.body.appendChild((tiny[i] = rats));
-            starv[i] = 0;
-            tinyv[i] = 0;
-            var rats = createDiv(5, 5);
-            rats.style.backgroundColor = "transparent";
-            rats.style.visibility = "hidden";
-            rats.style.zIndex = "999";
-            var rlef = createDiv(1, 5);
-            var rdow = createDiv(5, 1);
-            rats.appendChild(rlef);
-            rats.appendChild(rdow);
-            rlef.style.top = "2px";
-            rlef.style.left = "0px";
-            rdow.style.top = "0px";
-            rdow.style.left = "2px";
-            document.body.appendChild((star[i] = rats));
-          }
-          set_width();
-          sparkle();
-        }
-      };
-
-      function sparkle() {
-        var c;
-        if (Math.abs(x - ox) > 1 || Math.abs(y - oy) > 1) {
-          ox = x;
-          oy = y;
-          for (c = 0; c < sparkles; c++)
-            if (!starv[c]) {
-              star[c].style.left = (starx[c] = x) + "px";
-              star[c].style.top = (stary[c] = y + 1) + "px";
-              star[c].style.clip = "rect(0px, 5px, 5px, 0px)";
-              star[c].childNodes[0].style.backgroundColor = star[c].childNodes[1].style.backgroundColor =
-                colour == "random" ? newColour() : colour;
-              star[c].style.visibility = "visible";
-              starv[c] = 50;
-              break;
-            }
-        }
-        for (c = 0; c < sparkles; c++) {
-          if (starv[c]) update_star(c);
-          if (tinyv[c]) update_tiny(c);
-        }
-        setTimeout("sparkle()", 40);
-      }
-
-      function update_star(i) {
-        if (--starv[i] == 25) star[i].style.clip = "rect(1px, 4px, 4px, 1px)";
-        if (starv[i]) {
-          stary[i] += 1 + Math.random() * 3;
-          starx[i] += ((i % 5) - 2) / 5;
-          if (stary[i] < shigh + sdown) {
-            star[i].style.top = stary[i] + "px";
-            star[i].style.left = starx[i] + "px";
-          } else {
-            star[i].style.visibility = "hidden";
-            starv[i] = 0;
-            return;
-          }
-        } else {
-          tinyv[i] = 50;
-          tiny[i].style.top = (tinyy[i] = stary[i]) + "px";
-          tiny[i].style.left = (tinyx[i] = starx[i]) + "px";
-          tiny[i].style.width = "2px";
-          tiny[i].style.height = "2px";
-          tiny[i].style.backgroundColor = star[i].childNodes[0].style.backgroundColor;
-          star[i].style.visibility = "hidden";
-          tiny[i].style.visibility = "visible";
-        }
-      }
-
-      function update_tiny(i) {
-        if (--tinyv[i] == 25) {
-          tiny[i].style.width = "1px";
-          tiny[i].style.height = "1px";
-        }
-        if (tinyv[i]) {
-          tinyy[i] += 1 + Math.random() * 3;
-          tinyx[i] += ((i % 5) - 2) / 5;
-          if (tinyy[i] < shigh + sdown) {
-            tiny[i].style.top = tinyy[i] + "px";
-            tiny[i].style.left = tinyx[i] + "px";
-          } else {
-            tiny[i].style.visibility = "hidden";
-            tinyv[i] = 0;
-            return;
-          }
-        } else tiny[i].style.visibility = "hidden";
-      }
-
-      document.onmousemove = mouse;
-      function mouse(e) {
-        if (e) {
-          y = e.pageY;
-          x = e.pageX;
-        } else {
-          set_scroll();
-          y = event.y + sdown;
-          x = event.x + sleft;
-        }
-      }
-
-      window.onscroll = set_scroll;
-      function set_scroll() {
-        if (typeof self.pageYOffset == "number") {
-          sdown = self.pageYOffset;
-          sleft = self.pageXOffset;
-        } else if (document.body && (document.body.scrollTop || document.body.scrollLeft)) {
-          sdown = document.body.scrollTop;
-          sleft = document.body.scrollLeft;
-        } else if (
-          document.documentElement &&
-          (document.documentElement.scrollTop || document.documentElement.scrollLeft)
-        ) {
-          sleft = document.documentElement.scrollLeft;
-          sdown = document.documentElement.scrollTop;
-        } else {
-          sdown = 0;
-          sleft = 0;
-        }
-      }
-
-      window.onresize = set_width;
-      function set_width() {
-        var sw_min = 999999;
-        var sh_min = 999999;
-        if (document.documentElement && document.documentElement.clientWidth) {
-          if (document.documentElement.clientWidth > 0) sw_min = document.documentElement.clientWidth;
-          if (document.documentElement.clientHeight > 0) sh_min = document.documentElement.clientHeight;
-        }
-        if (typeof self.innerWidth == "number" && self.innerWidth) {
-          if (self.innerWidth > 0 && self.innerWidth < sw_min) sw_min = self.innerWidth;
-          if (self.innerHeight > 0 && self.innerHeight < sh_min) sh_min = self.innerHeight;
-        }
-        if (document.body.clientWidth) {
-          if (document.body.clientWidth > 0 && document.body.clientWidth < sw_min) sw_min = document.body.clientWidth;
-          if (document.body.clientHeight > 0 && document.body.clientHeight < sh_min)
-            sh_min = document.body.clientHeight;
-        }
-        if (sw_min == 999999 || sh_min == 999999) {
-          sw_min = 800;
-          sh_min = 600;
-        }
-        swide = sw_min;
-        shigh = sh_min;
-      }
-
-      function createDiv(height, width) {
-        var div = document.createElement("div");
-        div.style.position = "absolute";
-        div.style.height = height + "px";
-        div.style.width = width + "px";
-        div.style.overflow = "hidden";
-        return div;
-      }
-
-      function newColour() {
-        var c = new Array();
-        c[0] = 255;
-        c[1] = Math.floor(Math.random() * 256);
-        c[2] = Math.floor(Math.random() * (256 - c[1] / 2));
-        c.sort(function () {
-          return 0.5 - Math.random();
-        });
-        return "rgb(" + c[0] + ", " + c[1] + ", " + c[2] + ")";
-      }
-      // ]]>
-    </script>
+    <!-- Link to external script -->
+    <script src="js/script.js"></script>
   </body>
 </html>
