@@ -67,7 +67,7 @@ b {
     border-radius: 6px;
 }
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 9px;
     height: 0;
     background: transparent;
 }
@@ -276,7 +276,7 @@ b {
 }
 .fanlist {
     width: 170px;
-    height: 250px;
+    height: 204px;
     overflow: auto;
     border: 1px;
     padding: 3px;
