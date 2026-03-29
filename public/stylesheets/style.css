@@ -14,10 +14,10 @@
 }
 /* ===== Body CSS ===== */
 body {
-    cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/BlinkingCursor.gif"), auto;
+    cursor: url("../assets/2xzjv.gif"), auto;
     margin: 0;
     font-family: "Times New Roman", Times, serif;
-    background: #f2f8f9 url(https://file.garden/aA2l8ug81GreC0q0/assets/08700d6c.png) fixed;
+    background: #f2f8f9 url(../assets/images/itinerae@neocities_s39ua.png) fixed;
     color: #918d84;
     padding: 20px;
     font-size: 11px;
@@ -40,12 +40,12 @@ a {
     color: #94afff;
     text-decoration: none;
     font-weight: bold;
-    cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
+    cursor: url("../assets/r0bln.gif"), auto;
 }
 a:hover {
     color: #a2cfff;
     text-decoration: none;
-    cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
+    cursor: url("../assets/r0bln.gif"), auto;
 }
 b {
     color: #6265d4;
@@ -67,7 +67,7 @@ b {
     border-radius: 6px;
 }
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 9px;
     height: 0;
     background: transparent;
 }
@@ -115,7 +115,7 @@ b {
     border-radius: 20px;
     border-width: 8px;
     border-style: solid;
-    border-image: url("https://file.garden/aA2l8ug81GreC0q0/border/frill-2.png") 8 fill round;
+    border-image: url("../assets/decor/frill-2.png") 8 fill round;
 }
 
 /* ===== Header / Site name CSS ===== */
@@ -141,7 +141,7 @@ b {
 .nav-bar a {
     color: #94afff;
     text-decoration: none;
-    cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
+    cursor: url("../assets/r0bln.gif"), auto;
     font-weight: bold;
     text-transform: lowercase;
     font-family: georgia, arial;
@@ -158,7 +158,7 @@ b {
 .nav-bar a:hover {
     color: #a2cfff;
     text-decoration: none;
-    cursor: url("https://file.garden/aA2l8ug81GreC0q0/miku/pixel/KotatsuCursor.gif"), auto;
+    cursor: url("../assets/r0bln.gif"), auto;
 }
 
 /* ===== Main / Content area CSS ===== */
@@ -235,10 +235,7 @@ b {
     display: none;
 }
 
-/*
-  ===== Neighbor's Section CSS =====
-  My Neighbors, Personal websites of other users that I like!
-*/
+/* ===== Neighbor's Section CSS ===== */
 
 .neighbours-container {
     display: flex;
@@ -246,7 +243,7 @@ b {
 }
 .neighbours {
     width: 170px;
-    height: 249px;
+    height: 150px;
     overflow: auto;
     border: 1px;
     padding: 3px;
@@ -265,7 +262,7 @@ b {
 }
 .web {
     width: 170px;
-    height: 70px;
+    height: 200px;
     overflow: auto;
     border: 1px;
     padding: 3px;
@@ -279,7 +276,7 @@ b {
 }
 .fanlist {
     width: 170px;
-    height: 250px;
+    height: 204px;
     overflow: auto;
     border: 1px;
     padding: 3px;
