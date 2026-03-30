@@ -1,0 +1,97 @@
+/* 
+update log!! taken from https://pastebin.com/s1WB4sTn
+
+keyz note: i found this from mikucoded.neocities.org!
+*/
+#log,
+#log:hover {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+    overflow: hidden;
+    padding: 5px 10px 5px 5px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 4px 7px #89c4cb;
+    width: 50px;
+    height: 50px;
+}
+#log:hover {
+    width: 190px;
+    height: 190px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 10px #89c4cb;
+}
+
+.title-log,
+#log:hover .title-log {
+    opacity: 0;
+    font: 0 bubblegum;
+    height: 28px;
+    background: linear-gradient(#61a7c1, white);
+    background-clip: text; /* Standard property */
+    -webkit-background-clip: text; /* Vendor prefix for WebKit browsers */
+    color: transparent; /* Make text transparent to show the background */
+    background-image: url("your-image-url.jpg"); /* Example background */
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px #8094bd;
+}
+#log:hover .title-log {
+    opacity: 1;
+    font: 19px bubblegum;
+}
+
+.info-log,
+#log:hover .info-log {
+    opacity: 0;
+    height: 0;
+    overflow: auto;
+    padding-top: 2px;
+    font: 0 pixel;
+    color: #303030;
+    line-height: 14px;
+    text-align: left;
+}
+#log:hover .info-log {
+    opacity: 0.99;
+    height: 135px;
+    font: 0.67rem pixel;
+    line-height: 14px;
+}
+
+#log mark,
+#log:hover mark {
+    opacity: 0;
+    font-size: 0;
+    background: linear-gradient(#afc5e0, #fff);
+    border: 0.7px solid #afdfe0;
+    border-radius: 15px;
+    padding: 1px 4px 0.5px 4px;
+    color: #303030;
+}
+#log:hover mark {
+    opacity: 1;
+    font-size: 0.67rem;
+}
+
+#log,
+#log:hover,
+.info-log,
+#log:hover .info-log,
+.title-log,
+#log:hover .title,
+#log mark,
+#log:hover mark {
+    -webkit-transition: all 0.5s ease-in-out; /* For older WebKit browsers */
+    -moz-transition: all 0.5s ease-in-out; /* For older Firefox */
+    -o-transition: all 0.5s ease-in-out; /* For older Opera */
+    transition: all 0.5s ease-in-out; /* Standard syntax — must be last */
+}
+
+#log br {
+    display: block;
+    content: "";
+    margin-top: 10px;
+}
