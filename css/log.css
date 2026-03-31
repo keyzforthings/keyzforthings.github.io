@@ -19,7 +19,7 @@ keyz note: i found this from mikucoded.neocities.org!
 }
 #log:hover {
     width: 190px;
-    height: 300px;
+    height: 250px;
     padding: 5px 5px 5px 5px;
     border-radius: 5px;
     box-shadow: 0 0 7px 10px #89c4cb;
@@ -88,10 +88,51 @@ keyz note: i found this from mikucoded.neocities.org!
     -moz-transition: all 0.5s ease-in-out; /* For older Firefox */
     -o-transition: all 0.5s ease-in-out; /* For older Opera */
     transition: all 0.5s ease-in-out; /* Standard syntax — must be last */
+    scrollbar-width: none;
+
+    /* hide scrollbar (IE/Edge old) */
+    -ms-overflow-style: none;
+}
+/* hide scrollbar (Chrome, Safari) */
+.logbox::-webkit-scrollbar {
+    display: none;
 }
 
 #log br {
     display: block;
     content: "";
     margin-top: 10px;
+}
+#log {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+    overflow: hidden;
+    padding: 5px 10px 5px 5px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 4px 7px #89c4cb;
+    width: 50px;
+    height: 50px;
+    transition: all 0.5s ease-in-out;
+}
+
+#log:hover {
+    width: 190px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 10px #89c4cb;
+    overflow: visible; /* important */
+}
+/*ADDED CODE*/
+#log:hover,
+#log:focus-within {
+    width: 190px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 7px 10px #89c4cb;
+    overflow: visible;
 }
