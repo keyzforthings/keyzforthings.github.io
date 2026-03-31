@@ -19,7 +19,7 @@ keyz note: i found this from mikucoded.neocities.org!
 }
 #log:hover {
     width: 190px;
-    height: 190px;
+    height: 300px;
     padding: 5px 5px 5px 5px;
     border-radius: 5px;
     box-shadow: 0 0 7px 10px #89c4cb;
@@ -58,7 +58,7 @@ keyz note: i found this from mikucoded.neocities.org!
     opacity: 0.99;
     height: 135px;
     font: 0.67rem pixel;
-    line-height: 14px;
+    line-height: 16px;
 }
 
 #log mark,
